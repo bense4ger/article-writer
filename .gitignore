@@ -1,6 +1,7 @@
 # Binaries for programs and plugins
-*.exe
-*.exe~
+article-writer
+article-writer.exe
+article-writer.exe~
 *.dll
 *.so
 *.dylib
