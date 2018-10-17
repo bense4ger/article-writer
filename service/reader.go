@@ -24,7 +24,7 @@ func ReadArticleFromFile(filePath string) (*model.Article, error) {
 		return nil, fmt.Errorf("ReadArticleFromFile: %s", err.Error())
 	}
 
-	m.SetKey()
+	m.SetID()
 
 	return m, nil
 }
