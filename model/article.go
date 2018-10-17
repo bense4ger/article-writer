@@ -2,9 +2,9 @@ package model
 
 // Article models a blog article
 type Article struct {
-	Title       string
-	Content     string
-	Tags        []string
-	CreatedDate string
-	UpdateDate  string
+	Title       string   `json:"title"`
+	Content     string   `json:"content"`
+	Tags        []string `json:"tags"`
+	CreatedDate string   `json:"createdDate"`
+	UpdateDate  string   `json:"updateDate"`
 }

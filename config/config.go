@@ -12,8 +12,8 @@ var C *Config
 
 // Config models configuration data
 type Config struct {
-	AWSRegion string
-	Table     string
+	AWSRegion string `json:"awsRegion"`
+	Table     string `json:"table"`
 }
 
 func init() {
