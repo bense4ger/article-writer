@@ -17,7 +17,7 @@ var (
 
 // Create instatiates the DynamoDB service
 func Create(region, tbl string) error {
-	if table == "" {
+	if tbl == "" {
 		return fmt.Errorf("Create: No table name supplied")
 	}
 	table = tbl
